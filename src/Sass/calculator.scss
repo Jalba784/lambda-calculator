@@ -28,15 +28,12 @@
     height: 80px;
   }
   .specButtons {
-    background-color: $specialButtons;
-    color: white;
+    @include buttons-colors($specialButtons);
   }
   .operButtons {
-    background-color: $operatorButtons;
-    color: white;
+    @include buttons-colors($operatorButtons);
   }
   .numButtons {
-    background-color: $numberButtons;
-    color: white;
+    @include buttons-colors($numberButtons);
   }
 }
