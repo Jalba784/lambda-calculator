@@ -1,11 +1,11 @@
 import React from "react";
 
 const SpecialButton = (props) => {
-  const { someText } = props;
+  const { specText } = props;
   return (
     <button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      {someText}
+      {specText}
     </button>
   );
 };
