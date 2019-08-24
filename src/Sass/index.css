@@ -29,5 +29,17 @@
   width: 80px;
   height: 80px;
 }
+.container .specButtons {
+  background-color: #1358A3;
+  color: white;
+}
+.container .operButtons {
+  background-color: #007A95;
+  color: white;
+}
+.container .numButtons {
+  background-color: #084483;
+  color: white;
+}
 
 /*# sourceMappingURL=index.css.map */

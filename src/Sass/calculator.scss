@@ -27,4 +27,16 @@
     width: 80px;
     height: 80px;
   }
+  .specButtons {
+    background-color: $specialButtons;
+    color: white;
+  }
+  .operButtons {
+    background-color: $operatorButtons;
+    color: white;
+  }
+  .numButtons {
+    background-color: $numberButtons;
+    color: white;
+  }
 }
