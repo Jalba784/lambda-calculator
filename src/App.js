@@ -35,9 +35,15 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display answerProp={displayAnswer} />
-        <Numbers addNumber={addNumber}/>
-        <Operators addOperator={addOperator}/>
-        <Specials/>
+        <div className="inner-cont">
+            <div className="button-group">
+                <Specials/>
+                <Numbers addNumber={addNumber}/>
+            </div>
+            <div className="opColumn">
+                <Operators addOperator={addOperator}/>
+            </div>
+        </div>
       </div>
     </div>
   );
